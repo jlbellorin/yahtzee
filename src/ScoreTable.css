@@ -1,0 +1,33 @@
+.ScoreTable {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+  row-gap: 1rem;
+  font-size: 0.9rem;
+  background-color: white;
+  padding: 2rem 0;
+}
+
+.ScoreTable table {
+  width: 100%;
+  margin: 0 auto;
+  min-width: 400px;
+}
+
+.ScoreTable-section {
+  vertical-align: top;
+  max-width: 40rem;
+}
+
+.ScoreTable-total {
+  grid-column: 1 / -1;
+}
+
+@media only screen and (max-width: 800px) {
+  .ScoreTable {
+    grid-template-columns: auto;
+    grid-template-rows: repeat(2, 1fr);
+  }
+}

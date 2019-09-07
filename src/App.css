@@ -1,0 +1,13 @@
+.App {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App-title {
+  color: white;
+  font-weight: 100;
+  display: inline-block;
+  font-size: 5rem;
+}
